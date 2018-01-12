@@ -8,10 +8,6 @@ wifi.interface=wlan0
 ro.hardware=mt6735m
 mediatek.wlan.chip=CONSYS_MT6735
 mediatek.wlan.module.postfix=_consys_mt6735
-ro.mediatek.wlan.wsc=1
-ro.mediatek.wlan.p2p=1
-mediatek.wlan.ctia=0
-wifi.tethering.interface=ap0
 wifi.direct.interface=p2p0
 
 # Audio
@@ -26,7 +22,7 @@ ro.mtk_widevine_drm_l3_support=1
 # Display
 ro.sf.lcd_density=320
 # qemu.hw.mainkeys=0
-ro.opengles.version=196609
+ro.opengles.version=196610
 persist.sys.force_highendgfx=true
 
 # Power off opt in IPO
@@ -38,6 +34,7 @@ ro.kernel.zio=38,108,105,16
 
 # Disable dirty region for Mali
 debug.hwui.render_dirty_regions=false
+debug.hwui.use_buffer_age=false
 
 # Performance
 ro.mtk_perf_simple_start_win=1

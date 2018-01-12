@@ -5,6 +5,7 @@ LOCAL_SRC_FILES := \
     mtk_gui.cpp \
     mtk_ui.cpp \
     mtk_omx.cpp \
+    mtk_cam.cpp \
     icu55.c \
     icu53.c \
     ssl.c \

@@ -11,6 +11,7 @@ type mdlog_data_file, file_type, data_file_type;
 type thermal_manager_data_file, file_type, data_file_type;
 type msensor_data_file, file_type, data_file_type;
 type fuelgauge_data_file, file_type, data_file_type;
+type livedisplay_sysfs, sysfs_type, file_type;
 
 type sysfs_gps_file, fs_type, sysfs_type;
 type sysfs_ccci, fs_type, sysfs_type;
